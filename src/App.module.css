@@ -1,0 +1,23 @@
+.tableContain{
+  padding: 1rem;
+}
+
+.cellTitle{
+  min-width: 150px;
+  padding: .25rem;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.cellContent{
+  padding: .25rem;
+  text-align: center;
+}
+
+.lineContent{
+  cursor: pointer;
+}
+.lineContent:hover{
+  background-color: rgba(255,255,0,0.2)
+}
