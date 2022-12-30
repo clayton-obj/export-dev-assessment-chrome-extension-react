@@ -1,4 +1,5 @@
 export type DevAssessmentLine = {
+  photo: string | undefined;
   user: string;
   final_concept : string;
   clean_code : string;

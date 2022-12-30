@@ -30,7 +30,11 @@ const messagesFromReactAppListener = (
           ?.innerHTML as string;
       };
 
+
+      const photo = columns[0].querySelector('img')?.getAttribute('src')!
+
       resultsDevAssessment.push({
+        photo,
         user: getValueLineUser(columns[0]).trim(),
         final_concept: getValueLine(columns[2]),
         clean_code: getValueLine(columns[3]),
